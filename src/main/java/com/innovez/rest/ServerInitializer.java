@@ -12,7 +12,7 @@ public class ServerInitializer extends AbstractAnnotationConfigDispatcherServlet
 	}
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
-		return new Class[] {WebConfiguration.class};
+		return new Class[] {WebRestConfiguration.class};
 	}
 	@Override
 	protected String[] getServletMappings() {
