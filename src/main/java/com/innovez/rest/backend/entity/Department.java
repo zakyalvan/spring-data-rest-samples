@@ -49,4 +49,10 @@ public class Department implements Serializable {
 	public void setVersion(Integer version) {
 		this.version = version;
 	}
+	
+	@Override
+	public String toString() {
+		return "Department [id=" + id + ", name=" + name + ", version="
+				+ version + "]";
+	}
 }
